@@ -1,0 +1,12 @@
+[ 25%] Building CXX object src/001-function/CMakeFiles/001-function.dir/001-function.cc.o
+Linking CXX executable 001-function
+[ 25%] Built target 001-function
+[ 50%] Building CXX object src/002-filter/CMakeFiles/002-filter.dir/002-filter.cc.o
+Linking CXX executable 002-filter
+[ 50%] Built target 002-filter
+[ 75%] Building CXX object src/004-bspline/CMakeFiles/004-bspline.dir/004-bspline.cc.o
+Linking CXX executable 004-bspline
+[ 75%] Built target 004-bspline
+[100%] Building CXX object src/005-trajectory-optimization/CMakeFiles/005-trajectory-optimization.dir/005-trajectory-optimization.cc.o
+Linking CXX executable 005-trajectory-optimization
+[100%] Built target 005-trajectory-optimization

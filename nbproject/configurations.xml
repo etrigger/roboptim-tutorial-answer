@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="src">
+        <df name="001-function">
+          <in>001-function.cc</in>
+        </df>
+        <df name="002-filter">
+          <in>002-filter.cc</in>
+        </df>
+        <df name="003-hs71">
+          <in>003-hs71.cc</in>
+        </df>
+        <df name="004-bspline">
+          <in>004-bspline.cc</in>
+        </df>
+        <df name="005-trajectory-optimization">
+          <in>005-trajectory-optimization.cc</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>build/Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>build/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>build</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>build/src/003-hs71/003-hs71</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>/usr/local/include</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>EIGEN_RUNTIME_NO_MALLOC</Elem>
+              <Elem>ROBOPTIM_DO_NOT_CHECK_ALLOCATION</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>build</preBuildCommandWorkingDir>
+          <preBuildCommand>${CMAKE} -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=${IDE_CC} -DCMAKE_CXX_COMPILER=${IDE_CXX} -DCMAKE_C_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_CXX_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..</preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <folder path="0/src/001-function">
+        <ccTool>
+          <incDir>
+            <pElem>build/src/001-function</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/002-filter">
+        <ccTool>
+          <incDir>
+            <pElem>build/src/002-filter</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/003-hs71">
+        <ccTool>
+          <incDir>
+            <pElem>build/src/003-hs71</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/004-bspline">
+        <ccTool>
+          <incDir>
+            <pElem>build/src/004-bspline</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/005-trajectory-optimization">
+        <ccTool>
+          <incDir>
+            <pElem>build/src/005-trajectory-optimization</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="src/001-function/001-function.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/002-filter/002-filter.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/003-hs71/003-hs71.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/004-bspline/004-bspline.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/005-trajectory-optimization/005-trajectory-optimization.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
